@@ -25,7 +25,7 @@ abstract class Product
         $this->id = $id;
         $this->name = $name;
     }
-
+    // getters & setters
     public static function getPrice()
     {
         return self::$price;

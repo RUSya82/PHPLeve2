@@ -8,7 +8,7 @@
 class DigitalProduct extends Product
 {
 
-
+    //цена в два раза меньше базовой
     public function getFinalPrice(){
         return parent::$price / 2;
     }
