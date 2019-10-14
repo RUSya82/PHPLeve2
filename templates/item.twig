@@ -1,0 +1,22 @@
+{% for item in result %}
+    <figure class="item-one">
+
+        <a class="product" href="single-page.html"><img src="{{ item.image | escape }}" alt="{{ item.name }}">
+            <div class="item-name">{{ item.name }}</div>
+            <div class="item-price">${{ item.price }}</div>
+        </a>
+        <div class="flex-wrapper">
+            <a href="https://mail.ru" class="add-to-card" data-id="{{ item.id }}" data-price="{{ item.price }}" data-name="{{ item.name }}" data-image="{{ item.image }}">
+                Add to card
+            </a>
+        </div>
+        <div class="flex-wrapper-bottom">
+            <a href="https://mail.ru" class="add-to-card retweet-button">
+                <i class="fa fa-retweet fa-sm" aria-hidden="true"></i>
+            </a>
+            <a href="https://mail.ru" class="add-to-card">
+                <i class="fa fa-heart-o fa-sm" aria-hidden="true"></i>
+            </a>
+        </div>
+    </figure>
+{% endfor %}

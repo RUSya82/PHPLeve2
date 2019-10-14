@@ -1,0 +1,27 @@
+{
+  "amount": 3000,
+  "countGoods": 12,
+  "contents": [
+    {
+      "id_product": 15629,
+      "product_name": "Rebox Zane",
+      "image": "img/item1.jpg",
+      "price": 250,
+      "quantity": 5
+    },
+    {
+      "id_product": 12328,
+      "product_name": "Rebox Zane",
+      "image": "img/item2.jpg",
+      "price": 250,
+      "quantity": 5
+    },
+    {
+      "id_product": 85654,
+      "product_name": "Rebox Zane",
+      "image": "img/item3.jpg",
+      "price": 250,
+      "quantity": 2
+    }
+  ]
+}
